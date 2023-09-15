@@ -71,7 +71,7 @@
 }
 </style>
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const panels = ref([0, 1]);
 
@@ -89,12 +89,12 @@ const generalListData = ref([
   {
     icon: "creation",
     title: "How many years are you in development?",
-    text: "I'm in the web development industry for <b>8 years</b> now",
+    text: "I'm in the web development industry for <b>6 years</b> now",
   },
   {
     icon: "domain",
     title: "How many years of commercial experience do you have?",
-    text: "I have about <b>5 years</b> of commercial experience",
+    text: "I have about <b>4 years</b> of commercial experience",
   },
   {
     icon: "alphabetical-variant",
