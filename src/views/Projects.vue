@@ -18,6 +18,7 @@
               variant="flat"
               rounded="lg"
               :href="item.href"
+              target="_blank"
               :elevation="0"
               color="blue-grey-lighten-5"
             >
@@ -56,6 +57,7 @@
                   prepend-icon="mdi-github"
                   rounded="lg"
                   :href="item.sourceLink"
+                  target="_blank"
                   block
                 >
                   Source code
@@ -70,16 +72,16 @@
 </template>
 <style></style>
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const products = ref([
   {
-    href: "https://t.me/shortggbot",
-    title: "GGShort",
+    href: "",
+    title: "Scrento",
     subtitle:
-      "Telegram bot that downloads videos via a link from Reels/TikTok/Shorts",
+      "Electron + TypeScript desktop application to cast screen/window/camera to another device using WebRTC",
     opts: ["source"],
-    sourceLink: "https://github.com/dortanes/shortggbot",
+    sourceLink: "https://github.com/dortanes/scrento",
   },
 ]);
 </script>

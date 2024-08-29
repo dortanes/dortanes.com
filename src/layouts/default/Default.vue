@@ -18,7 +18,9 @@
                 <img src="@/assets/avatar.png" style="width: 100%" />
               </v-card>
               <div class="mt-6 text-center">
-                <h2 class="text-h2 title">dortanes</h2>
+                <h2 class="text-h2 title">
+                  Anton <span class="text-h5">aka Anthy</span>
+                </h2>
                 <h3 class="text-h5 subtitle">fullstack developer</h3>
               </div>
             </v-col>
@@ -37,7 +39,7 @@
   background: -webkit-linear-gradient(#641adb, #490baf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.15));
 }
 
 .subtitle {

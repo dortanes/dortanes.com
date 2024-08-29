@@ -26,22 +26,9 @@
       </v-list>
     </v-menu>
 
-    <v-tooltip text="Plan a meeting" location="top">
+    <v-tooltip text="pls invite me somewhere i wanna work" location="top">
       <template v-slot:activator="{ props }">
-        <v-btn
-          rounded="lg"
-          v-bind="props"
-          href="https://calendly.com/drtns/30min"
-          icon
-        >
-          <v-icon>mdi-video-plus</v-icon>
-        </v-btn>
-      </template>
-    </v-tooltip>
-
-    <v-tooltip text=":)" location="top">
-      <template v-slot:activator="{ props }">
-        <v-btn rounded="lg" v-bind="props" icon disabled>
+        <v-btn rounded="lg" v-bind="props" icon>
           <v-icon>mdi-alien</v-icon>
         </v-btn>
       </template>
@@ -124,10 +111,7 @@
   </v-toolbar>
 </template>
 <script setup>
-import {
-  mergeProps,
-  ref,
-} from 'vue';
+import { mergeProps, ref } from "vue";
 
 const docsLinks = ref({
   en: "https://drive.google.com/file/d/1gdc_l1Kd-LMeeVxDVmmrS3fzxaNutLME/view?usp=share_link",
