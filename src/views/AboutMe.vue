@@ -79,27 +79,27 @@ const generalListData = ref([
   {
     icon: "home",
     title: "Where am I living right now?",
-    text: "Currently I'm living in <b>Batumi, Georgia</b>",
+    text: "Currently I'm living in <b>Almaty, Kazakhstan</b>",
   },
   {
     icon: "face-recognition",
     title: "How old am I?",
-    text: "I'm <b>19</b> years old",
+    text: "I'm <b>20</b> years old",
   },
   {
     icon: "creation",
     title: "How many years are you in development?",
-    text: "I'm in the web development industry for <b>7 years</b> now",
+    text: "I'm in the web development industry since 2015 :)",
   },
   {
     icon: "domain",
     title: "How many years of commercial experience do you have?",
-    text: "I have about <b>5 years</b> of commercial experience",
+    text: "I have <b>5 years</b> of commercial experience",
   },
   {
     icon: "alphabetical-variant",
     title: "What is your English level?",
-    text: "At the moment my English level is between <b>B2-C1</b>",
+    text: "At the moment my English level is <b>B2 Advanced</b>",
   },
 ]);
 
